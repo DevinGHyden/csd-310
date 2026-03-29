@@ -1,0 +1,30 @@
+{
+  "_id": "64f1a2b3c4d5e6f7a8b9c0d1",
+  "first_name": "Jean-Luc",
+  "last_name": "Picard",
+  "birthdate": "2305-07-13",
+  "roles": [
+    {
+      "role_id": 101,
+      "role_name": "Captain",
+      "permissions": ["command", "navigate", "diplomacy"]
+    },
+    {
+      "role_id": 102,
+      "role_name": "Archaeologist",
+      "permissions": ["excavate", "analyze"]
+    }
+  ],
+  "dependents": [
+    {
+      "dependent_id": "d001",
+      "name": "Beverly Crusher",
+      "relationship": "Partner"
+    },
+    {
+      "dependent_id": "d002",
+      "name": "Wesley Crusher",
+      "relationship": "Step-son"
+    }
+  ]
+}
